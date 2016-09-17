@@ -1,0 +1,151 @@
+<html>
+<head>
+                   <title>Hello Mind</title>
+</head>   
+<style>
+body {
+    background: url("clock.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-top: 150px;
+}
+</style>
+<form>
+SELECT THE DAY:<br>
+<select id="day">
+<option>Monday</option>
+<option>Tuesday</option>
+<option>Wednesday</option>
+<option>Thursday</option>
+<option>Friday</option>
+<option>Saturday</option>
+<option>Sunday</option>
+</select>
+<br>
+SELECT YOUR PLACE:<br>
+<select id="place">
+<option value="Amla"> Amla</option>
+<option value="Bahada"> Bahada</option>
+<option value="Chandan"> Chandan</option>
+<option value="Dimiri"> Dimiri</option>
+<option value="Khaina"> Khaina</option>
+</select>
+<br>
+<button type="button" onclick="myFunction()">Submit</button>
+<p id="demo"></p>
+<p id="dem"></p>
+<p id="loc"></p>
+<script>
+function myFunction() {
+  var x=document.getElementById("day").selectedIndex;
+var y=document.getElementById("place").selectedIndex;
+if(x==0 && y==0)
+{document.getElementById("loc").innerHTML="TODAY'S LUNCH TIME FOR AMLA IS= 12:30 PM";
+}
+else if(x==0 && y==1)
+{document.getElementById("loc").innerHTML="TODAY'S LUNCH TIME FOR BAHADA IS= 12:45 PM";
+}
+else if(x==0 && y==2)
+{document.getElementById("loc").innerHTML="TODAY'S LUNCH TIME FOR CHANDAN IS= 01:00 PM";
+}
+else if(x==0 && y==3)
+{document.getElementById("loc").innerHTML="TODAY'S LUNCH TIME FOR DIMIRI IS= 01:15 PM";
+}
+else if(x==0 && y==4)
+{document.getElementById("loc").innerHTML="TODAY'S LUNCH TIME FOR KHAINA IS= 01:30 PM";
+}
+if(x==1 && y==0)
+{document.getElementById("loc").innerHTML="TODAY'S LUNCH TIME FOR AMLA IS= 01:30 PM";
+}
+else if(x==1 && y==1)
+{document.getElementById("loc").innerHTML="TODAY'S LUNCH TIME FOR BAHADA IS= 12:30 PM";
+}
+else if(x==1 && y==2)
+{document.getElementById("loc").innerHTML="TODAY'S LUNCH TIME FOR CHANDAN IS= 12:45 PM";
+}
+else if(x==1 && y==3)
+{document.getElementById("loc").innerHTML="TODAY'S LUNCH TIME FOR DIMIRI IS= 01:00 PM";
+}
+else if(x==1 && y==4)
+{document.getElementById("loc").innerHTML="TODAY'S LUNCH TIME FOR KHAINA IS= 01:15 PM";
+}
+if(x==2 && y==0)
+{document.getElementById("loc").innerHTML="TODAY'S LUNCH TIME FOR AMLA IS= 01:15 PM";
+}
+else if(x==2 && y==1)
+{document.getElementById("loc").innerHTML="TODAY'S LUNCH TIME FOR BAHADA IS= 01:30 PM";
+}
+else if(x==2 && y==2)
+{document.getElementById("loc").innerHTML="TODAY'S LUNCH TIME FOR CHANDAN IS= 12:30 PM";
+}
+else if(x==2 && y==3)
+{document.getElementById("loc").innerHTML="TODAY'S LUNCH TIME FOR DIMIRI IS= 12:45 PM";
+}
+else if(x==2 && y==4)
+{document.getElementById("loc").innerHTML="TODAY'S LUNCH TIME FOR KHAINA IS= 01:00 PM";
+}
+if(x==3 && y==0)
+{document.getElementById("loc").innerHTML="TODAY'S LUNCH TIME FOR AMLA IS= 01:00 PM";
+}
+else if(x==3 && y==1)
+{document.getElementById("loc").innerHTML="TODAY'S LUNCH TIME FOR BAHADA IS= 01:15 PM";
+}
+else if(x==3 && y==2)
+{document.getElementById("loc").innerHTML="TODAY'S LUNCH TIME FOR CHANDAN IS= 01:30 PM";
+}
+else if(x==3 && y==3)
+{document.getElementById("loc").innerHTML="TODAY'S LUNCH TIME FOR DIMIRI IS= 12:30 PM";
+}
+else if(x==3 && y==4)
+{document.getElementById("loc").innerHTML="TODAY'S LUNCH TIME FOR KHAINA IS= 12:45 PM";
+}
+if(x==4 && y==0)
+{document.getElementById("loc").innerHTML="TODAY'S LUNCH TIME FOR AMLA IS= 12:45 PM";
+}
+else if(x==4 && y==1)
+{document.getElementById("loc").innerHTML="TODAY'S LUNCH TIME FOR BAHADA IS= 01:00 PM";
+}
+else if(x==4 && y==2)
+{document.getElementById("loc").innerHTML="TODAY'S LUNCH TIME FOR CHANDAN IS= 01:15 PM";
+}
+else if(x==4 && y==3)
+{document.getElementById("loc").innerHTML="TODAY'S LUNCH TIME FOR DIMIRI IS= 01:30 PM";
+}
+else if(x==4 && y==4)
+{document.getElementById("loc").innerHTML="TODAY'S LUNCH TIME FOR KHAINA IS= 12:30 PM";
+}
+if(x==5 && y==0)
+{document.getElementById("loc").innerHTML="TODAY'S LUNCH TIME FOR AMLA IS= 12:30 PM";
+}
+else if(x==5 && y==1)
+{document.getElementById("loc").innerHTML="TODAY'S LUNCH TIME FOR BAHADA IS= 12:45 PM";
+}
+else if(x==5 && y==2)
+{document.getElementById("loc").innerHTML="TODAY'S LUNCH TIME FOR CHANDAN IS= 01:00 PM";
+}
+else if(x==5 && y==3)
+{document.getElementById("loc").innerHTML="TODAY'S LUNCH TIME FOR DIMIRI IS= 01:15 PM";
+}
+else if(x==5 && y==4)
+{document.getElementById("loc").innerHTML="TODAY'S LUNCH TIME FOR KHAINA IS= 01:30 PM";
+}
+if(x==6 && y==0)
+{document.getElementById("loc").innerHTML="TODAY'S LUNCH TIME FOR AMLA IS= 01:30 PM";
+}
+else if(x==6 && y==1)
+{document.getElementById("loc").innerHTML="TODAY'S LUNCH TIME FOR BAHADA IS= 12:30 PM";
+}
+else if(x==6 && y==2)
+{document.getElementById("loc").innerHTML="TODAY'S LUNCH TIME FOR CHANDAN IS= 12:45 PM";
+}
+else if(x==6 && y==3)
+{document.getElementById("loc").innerHTML="TODAY'S LUNCH TIME FOR DIMIRI IS= 01:00 PM";
+}
+else if(x==6 && y==4)
+{document.getElementById("loc").innerHTML="TODAY'S LUNCH TIME FOR KHAINA IS= 01:15 PM";
+}
+}
+</script>
+</form>
+</body>
+      </html>
